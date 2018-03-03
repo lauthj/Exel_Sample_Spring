@@ -22,7 +22,7 @@ public class Application {
 		String filePath = System.getProperty("user.dir")+"\\src\\main\\java\\excelExportAndFileIO";
 
 		//Call read file method of the class to read data
-		objExcelFile.readExcel(filePath,"ExportExcel.xlsx","Sheet6");
+		objExcelFile.readExcel(filePath,"ExportExel.xlsx","Sheet1");
 
 		}
 
